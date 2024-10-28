@@ -13,5 +13,19 @@ criaCartao(
     'perguntas gerais',
     'De onde é a invenção do chuveiro elétrico?',
     'brasil',
+
 )
+
+criaCartao(
+    'perguntas gerais',
+    ' Quais o menor e o maior país do mundo?',
+    'vaticano'
+
+
+)
+
+criaCartao(
+    'perguntas gerais',
+    ' Qual o nome do presidente do Brasil que ficou conhecido como Jango?',
+    'João Goulart'
 )
