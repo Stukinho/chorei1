@@ -7,7 +7,7 @@ criaCartao(
 criaCartao(
 'pergunta gerais',
 'De quem é a famosa frase “Penso, logo existo”?',
-'Descartes'
+'Descartes')
 
 criaCartao(
     'perguntas gerais',
