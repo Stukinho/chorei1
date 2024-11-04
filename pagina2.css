@@ -1,0 +1,47 @@
+:root{
+    --fundo: #E6E6FA;
+    --cor-fundo: #fff0f5;
+    --cor-verso: #836fff;
+    --destaque: #66e2e4;
+    --preto: #000000;
+    --branco: #ffffff;
+
+
+}
+
+body { 
+    background-color: var(--fundo);
+    margin: 0;
+}
+
+header{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+header a{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--branco);
+    color: var(--preto);
+    width: 100%;
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    gap: 3rem;
+    padding: 4rem;
+}
+
+.cartao{
+    background-color: var(--cor-frente);
+    padding: 40px;
+    box-shadow: -12px 14px 16px var(--preto);
+}
+
+.CARTAO:hover{
+    transform: : scale(1.04);
+}
